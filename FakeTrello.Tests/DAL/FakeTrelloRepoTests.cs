@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FakeTrello.DAL;
 using Moq;
@@ -13,7 +13,6 @@ namespace FakeTrello.Tests.DAL
     public class FakeTrelloRepoTests
     {
         public Mock<FakeTrelloContext> fake_context { get; set; }
-        public FakeTrelloRepository repo { get; set; }
         public Mock<DbSet<Board>> mock_boards_set { get; set; }
         public IQueryable<Board> query_boards { get; set; }
         public List<Board> fake_board_table { get; set; }
@@ -182,3 +181,4 @@ namespace FakeTrello.Tests.DAL
         }
     }
 }
+*/
